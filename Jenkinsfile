@@ -1,5 +1,8 @@
 #! /bin/bash
 
-echo "Jenkinsfile"
+echo "Jenkinsfile begin build"
+
+go mod tidy
+go build
 
 
