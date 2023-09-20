@@ -2,7 +2,7 @@
 
 echo "Jenkinsfile begin build"
 
-go mod tidy
-go build
+sh 'go mod tidy'
+sh 'go build'
 
 
